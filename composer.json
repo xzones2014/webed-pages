@@ -1,0 +1,27 @@
+{
+    "name": "xzones2014/webed-pages",
+    "description": "WebEd pages management",
+    "license": "MIT",
+    "homepage": "http://sgsoftware.net",
+    "support": {
+        "issues": "https://github.com/sgsoft-studio/pages/issues",
+        "source": "https://github.com/sgsoft-studio/pages"
+    },
+    "authors": [
+        {
+            "name": "Tedozi Manson",
+            "email": "duyphan.developer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebEd\\Base\\Pages\\": "src"
+        },
+        "files": [
+
+        ]
+    }
+}
